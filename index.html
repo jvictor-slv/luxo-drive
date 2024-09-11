@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxoDrive</title>
+    <link rel="shortcut icon" href="./src/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>LuxoDrive</h1>
+    </header>
+    <main>
+        <video autoplay muted loop>
+            <source src="./src/video/luxury-cars-background.mp4">
+        </video>
+        <section>
+            <input type="text" placeholder="Digite a marca ou modelo do carro" id="campo-pesquisa">
+            <button onclick="pesquisar()">Buscar</button>
+        </section>
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
+        </section>
+    </main>
+    <footer>
+        <p>2024 - LuxoDrive. Todos os direitos reservados</p>
+        <p>Entre em contato por email: automoveis@luxo.com.br</p>
+    </footer>
+
+    <script src="./src/js/dados.js"></script>
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
